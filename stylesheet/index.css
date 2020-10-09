@@ -1,0 +1,306 @@
+/* header css */
+#header-wrapper {
+  background-image: url(../images/image07.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.header-mask {
+  background-color: rgba(193, 198, 212, 0.459);
+  height: 100vh;
+}
+
+.header-container {
+  margin: 0 150px;
+}
+
+.header-container > h1{
+  color: rgb(70, 2, 0);
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25vh;
+}
+/* btn アニメーション */
+.animation {
+  width: 100px;
+  height:50px;
+  text-align:center;
+  border:2px solid rgba(70, 2, 0, 0.678);
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin: 0 35vw;
+  margin-top: 5vh;
+}
+.animation a {
+  font-family:arial;
+  font-size:12px;
+  color: white;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .10s ease;
+  z-index:2;
+  position:relative;
+}
+.effect {
+  width:140px;
+  height:50px;
+  top:-2px;
+  left:-140px;
+  background:#bbbbbbc9;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.animation:hover .effect {
+  left:0;
+}
+.animation:hover a {
+  color: rgb(70, 2, 0);
+}
+
+/* main1 css */
+.main1-wrapper {
+  background-color: rgba(193, 198, 212, 0.459);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.main1-contents {
+  padding: 20px 30px;
+}
+
+#main1-content {
+  text-align: center;
+}
+
+#main1-content p {
+  color: rgb(15, 15, 68);
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+#main1-content h1 {
+  color: black;
+  font-family: serif;
+
+}
+
+.image01 {
+  border-radius: 50%;
+  margin-left: 10vw;
+}
+
+.left-content {
+  width: 20%;
+  float: left;
+}
+
+.right-content {
+  width: 70%;
+  float: right; 
+  margin: 15vh 0;
+  padding-right: 3%;
+}
+
+.text1 {
+ text-align: center;
+ font-family: serif;
+ margin-bottom: 5px;
+}
+
+.tittle {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 7px;
+}
+
+.text2 {
+  text-align: left;
+  font-family: serif;
+  margin-bottom: 5px;
+}
+
+/* アニメーション */
+.animation1 {
+  width: 100px;
+  height:50px;
+  text-align:center;
+  border:2px solid rgba(25, 16, 87, 0.514);
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:70vh 0 0 60vw;
+}
+.animation1 a {
+  font-family:arial;
+  font-size:12px;
+  color: rgba(25, 16, 87, 0.74);
+  text-decoration:none;
+  line-height:50px;
+  transition:all .10s ease;
+  z-index:2;
+  position:relative;
+}
+.effect1 {
+  width:140px;
+  height:50px;
+  top:-2px;
+  right:-140px;
+  background:#4b48486b;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.animation1:hover .effect1 {
+  right:0;
+}
+.animation1:hover a {
+  color: rgb(48, 8, 7);
+}
+/* main2 */
+#main2-wrapper {
+  background-color: rgba(190, 133, 143, 0.507);
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+.main2-contents {
+  background-color: rgba(255, 255, 255, 0.801);
+  /* height: 100vh; */
+}
+
+.main2-content {
+  padding: 10px 30px;
+}
+
+.main2-tittle {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.main2-tittle p {
+  color: rgb(25, 44, 19);
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.main2-tittle h1 {
+  color: black;
+  font-family: serif;
+}
+
+.portfolio-contents {
+  margin: 0 5vw;
+}
+
+.portfolio-content {
+  margin: 10px 4vw;
+  padding: 10px 10px;
+  display: flex;
+  border:  1px solid rgba(128, 128, 128, 0.445);
+  background-color: rgba(197, 161, 168, 0.349);
+}
+
+.portfolio-content > a {
+  margin: 1vh 3vw;
+  padding: 10px 0;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  background-color: white;
+}
+
+.portfolio {
+  text-align: left;
+  margin: 10px 25px;
+}
+
+.portfolio > ul > li > div {
+  font-size: 13px;
+}
+
+.portfolio > ul > li {
+  color: rgb(77, 44, 1);
+  padding: 5px 0;
+  font-family: serif;
+}
+
+.fab {
+  color: purple;
+}
+/* footer1 */
+.footer-wrapper {
+  background-color: rgba(190, 133, 143, 0.507);
+  height: 30vh;
+  width: 100vw;
+}
+
+.footer-mask {
+  background-color: rgba(255, 255, 255, 0.801);
+  height: 30vh;
+}
+
+.footer-contents {
+  margin: 0 10vw;
+  text-align: center;
+}
+
+/* .footer-mask {
+  background-color: rgba(193, 198, 212, 0.459);
+  height: 30vh;
+} */
+
+.footer-content {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content > p {
+  font-family: fantasy;
+  font-size: 25px;
+  color:  rgb(61, 8, 6);
+}
+
+.footer-content > h1 {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.footer-address  {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 40%;
+  border-bottom:  1px solid rgba(0, 0, 0, 0.616);
+}
+
+.git-hub {
+  margin-right: 10vw;
+}
+
+.footer-contents > a > i {
+  color: black;
+}
+/* footer2 */
+.footer1-wrapper {
+  background-image: url(../images/image09.png);
+  width: 100vw;
+  background-size: cover;
+}
+
+.footer1-mask {
+  background-color: rgba(193, 198, 212, 0.459);
+}
+
+.footer1-mask > p {
+  text-align: center;
+  font-size:15px;
+  padding: 45px 0;
+  opacity: 0.6;
+}
