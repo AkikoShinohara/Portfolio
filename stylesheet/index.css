@@ -62,25 +62,25 @@
 }
 
 /* main1 css */
-.main1-wrapper {
+#main1-wrapper {
   background-color: rgba(193, 198, 212, 0.459);
 }
 
 .main1-contents {
-  padding: 20px 30px;
+  padding: 17vh 40px;
 }
 
-#main1-content {
+.main1-content {
   text-align: center;
 }
 
-#main1-content p {
+.main1-content p {
   color: rgb(15, 15, 68);
   font-family: fantasy;
   font-size: 20px;
 }
 
-#main1-content h1 {
+.main1-content h1 {
   color: black;
   font-family: serif;
 
