@@ -7,8 +7,8 @@
 }
 
 .header-mask {
-  background-color: rgba(193, 198, 212, 0.459);
   height: 100vh;
+  background-color: rgba(193, 198, 212, 0.459);
 }
 
 .header-container {
@@ -32,8 +32,7 @@
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin: 0 35vw;
-  margin-top: 5vh;
+  margin: auto;
 }
 .animation a {
   font-family:arial;
@@ -65,9 +64,6 @@
 /* main1 css */
 .main1-wrapper {
   background-color: rgba(193, 198, 212, 0.459);
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
 }
 
 .main1-contents {
@@ -90,38 +86,30 @@
 
 }
 
+.contents {
+  display: flex;
+}
+
 .image01 {
   border-radius: 50%;
-  margin-left: 10vw;
-}
-
-.left-content {
-  width: 20%;
-  float: left;
-}
-
-.right-content {
-  width: 70%;
-  float: right; 
-  margin: 15vh 0;
-  padding-right: 3%;
+  margin: 0 25px;
 }
 
 .text1 {
- text-align: center;
+ /* text-align: center; */
  font-family: serif;
  margin-bottom: 5px;
 }
 
 .tittle {
-  text-align: center;
+  /* text-align: center; */
   font-weight: bold;
   color: black;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .text2 {
-  text-align: left;
+  /* text-align: left; */
   font-family: serif;
   margin-bottom: 5px;
 }
@@ -136,7 +124,8 @@
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:70vh 0 0 60vw;
+  /* margin:70vh 0 0 60vw; */
+  margin: auto;
 }
 .animation1 a {
   font-family:arial;
@@ -236,13 +225,11 @@
 /* footer1 */
 .footer-wrapper {
   background-color: rgba(190, 133, 143, 0.507);
-  height: 30vh;
   width: 100vw;
 }
 
 .footer-mask {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 30vh;
 }
 
 .footer-contents {
