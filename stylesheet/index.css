@@ -51,7 +51,8 @@
 
 .header-mask {
   height: 100vh;
-  background-color: rgba(154, 156, 161, 0.452);
+  background: linear-gradient(rgba(224, 224, 230, 0.075), rgba(154, 156, 161, 0.76));
+  /* background-color: rgba(154, 156, 161, 0.452); */
 }
 
 .header-container {
