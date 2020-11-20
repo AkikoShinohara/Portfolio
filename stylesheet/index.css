@@ -16,7 +16,7 @@
 }
 
 .cool-link a:hover  {
-  color: rgb(27, 114, 214);
+  color: white;
   transition: 0.25s ease-in-out;
   position: relative;
 }
@@ -240,11 +240,26 @@
   background-color: rgba(197, 161, 168, 0.349);
 }
 
+.portfolio-content img {
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
+
+.portfolio-content img {
+  width: 300px;
+  display: block;
+  transition: 0.5s;
+}
+
+.portfolio-content img:hover {
+  transform: scale(1.1, 1.1);
+}
+
 .portfolio-content > a {
+  box-sizing: border-box;
+  object-fit: cover;
   margin: 1vh 3vw;
-  padding: 10px 0;
-  border: 1px solid rgba(128, 128, 128, 0.452);
-  background-color: white;
 }
 
 .portfolio {
