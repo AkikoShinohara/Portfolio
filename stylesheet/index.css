@@ -59,7 +59,7 @@
   margin: 0 150px;
 }
 
-.header-container > h1{
+#tittle{
   color: rgb(70, 2, 0);
   font-family: fantasy;
   font-size: 50px;
@@ -76,7 +76,7 @@
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin: auto;
+  margin: 100px auto;
 }
 .animation a {
   font-family:arial;

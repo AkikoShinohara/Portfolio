@@ -9,6 +9,9 @@
   <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="images/image01.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+</head>
 </head>
 <body>
   <!-- header -->
@@ -22,7 +25,14 @@
           <div class="cool-link center-to-side"><a href="#footer-wrapper">contact</a></div>
         </section>
         <div class="header-container">
-          <h1>Portfolio</h1>
+          <h1 id="tittle"></h1>
+          <script>
+            var typed = new Typed("#tittle", { strings: ["Hello Nice to meet you", "I am <strong>Akiko Shinohara</strong>", "This is my portfolio's page!!!"],
+            showCursor: false, typeSpeed: 120,loop:false, backDelay:2000,
+            backSpeed:100});
+            
+          </script>
+            
           <div class="animation">
             <div class="effect"></div>
             <a href="#main1-wrapper"> About me </a>
