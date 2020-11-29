@@ -3,7 +3,7 @@
   position: fixed;
   width: 95%;
   display: block;
-  font-size: 28px;
+  font-size: 30px;
   display: flex;
   justify-content: flex-end;
   padding: 20px 0;
@@ -13,7 +13,7 @@
 
 
 .cool-link {
-  font-family: fantasy;
+  font-family:  cursive;
   margin-right: 20px;
 }
 
@@ -64,7 +64,7 @@
 #tittle{
   color: rgb(70, 2, 0);
   font-family: fantasy;
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   padding-top: 25vh;
 }
