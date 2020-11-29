@@ -307,6 +307,25 @@
 .fab {
   color: purple;
 }
+
+/* page top スライドボタン */
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+#page_top a {
+  background-color: rgba(153, 153, 153, 0.425);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+#page_top a:hover {
+  background-color: rgba(102, 102, 102, 0.836);
+  text-decoration: none;
+}
+
 /* footer1 */
 #footer-wrapper {
   background-color: rgba(190, 133, 143, 0.507);
