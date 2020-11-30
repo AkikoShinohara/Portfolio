@@ -38,7 +38,7 @@ $(function(){
   });
 });
 
-// header スクロール移動
+// jquery スクロール移動
 $(function(){
   $('a[href^="#"]').click(function(){
     var speed = 500;
