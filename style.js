@@ -53,7 +53,7 @@ $(function(){
   });
 });
 
-// スクロールheader なくす
+// 下にスクロールでヘッダー非表示・上にスクロールでヘッダー表示
 $(function() {
   var $win = $(window),
       $header = $('.nav-bar'),
