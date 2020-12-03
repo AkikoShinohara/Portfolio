@@ -1,7 +1,7 @@
 # Portfolio
 ポートフォリオ(自己紹介)
 
-***Portfolio　URL***
+# URL
 
 https://akikoshinohara.github.io/Portfolio/
 
