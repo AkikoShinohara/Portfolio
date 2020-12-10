@@ -340,8 +340,10 @@
 }
 
 .footer-contents {
+  height: 250px;
   margin: 0 10vw;
   text-align: center;
+  padding: 50px 0;
 }
 
 /* .footer-mask {
